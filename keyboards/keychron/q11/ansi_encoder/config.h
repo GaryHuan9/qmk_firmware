@@ -16,12 +16,15 @@
 
 #pragma once
 
-/* Enable caps-lock LED */
-#define CAPS_LOCK_LED_INDEX 23
+//Enable caps-lock LED
+// #define CAPS_LOCK_LED_INDEX 23
 
-//Favors the hold behavior for mod taps
-#define HOLD_ON_OTHER_KEY_PRESS
+//Slightly favors the hold behavior for mod taps
+#define PERMISSIVE_HOLD
 
 //Accidentally hitting one shot key times out after a bit
 #define ONESHOT_TIMEOUT 500
+
+//Enables communication of layer information to the split side
+#define SPLIT_LAYER_STATE_ENABLE
 
